@@ -1,0 +1,32 @@
+body{
+    background: url(photo\ \(1\).png) no-repeat;
+    background-size: cover;
+    /* filter: blur(5px); */
+    /* -webkit-filter: blur(5px); */
+}
+.boxes{
+    backdrop-filter: blur(5px);
+     /* opacity: 25%;  */
+    width: 900px;;
+    margin-left:150px;
+}
+.box{
+    display: flex;
+    margin-left: 9px;
+    
+}
+.sousbox{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(194, 158, 158);
+    border: 0px solid black;
+    box-shadow: 1px 1px 10px black;
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+    margin-top: 50px;
+    
+}
+.boxes .box .sousbox img {
+    width: 200px;
+    height: 150px;
+}
